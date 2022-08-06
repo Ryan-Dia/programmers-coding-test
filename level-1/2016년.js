@@ -66,6 +66,7 @@ function solution(a, b) {
 
 ////정답 6 - RyanDeclan
 
+//자세한 설명 : https://html-jc.tistory.com/348
 function getDayName(a,b){
   var date = new Date(2016, (a - 1), b);
     return date.toString().slice(0, 3).toUpperCase();
