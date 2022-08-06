@@ -71,11 +71,10 @@ function solution(a, b) {
     var answer = '';
     
     let sum= 0;
+    let totalDay = 0;
     const monthList = [31,29,31,30,31,30,31,31,30,31,30,31]
     const days = ["FRI","SAT","SUN","MON","TUE","WED","THU",];
-    let totalDay = 0;
-    
-    
+   
     for(i=0; i<a-1; i++){
         totalDay += monthList[i] 
     }
@@ -85,4 +84,4 @@ function solution(a, b) {
 
     return weekDay;
 }
-}
+
