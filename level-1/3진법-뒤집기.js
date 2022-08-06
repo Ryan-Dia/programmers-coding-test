@@ -37,6 +37,7 @@ function solution(n) {
 }
 
 //정답 5 - RyanDeclan 
+//자세한 설명 https://html-jc.tistory.com/343
 function solution(n) {
     return parseInt([...n.toString(3)].reverse().join(""),3);
 }
