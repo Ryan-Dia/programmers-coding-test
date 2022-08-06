@@ -63,3 +63,10 @@ function solution(a, b) {
   const dayIndex = (totalDays + b) % 7;
   return days[dayIndex];
 }
+
+////정답 6 - RyanDeclan
+
+function getDayName(a,b){
+  var date = new Date(2016, (a - 1), b);
+    return date.toString().slice(0, 3).toUpperCase();
+}
