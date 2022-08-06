@@ -35,3 +35,8 @@ function solution(n) {
 function solution(n) {
     return parseInt(n.toString(3).split("").reverse().join(""), 3)
 }
+
+//정답 5 - RyanDeclan 
+function solution(n) {
+    return parseInt([...n.toString(3)].reverse().join(""),3);
+}
