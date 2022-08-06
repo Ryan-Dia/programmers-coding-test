@@ -67,7 +67,22 @@ function solution(a, b) {
 ////정답 6 - RyanDeclan
 
 //자세한 설명 : https://html-jc.tistory.com/348
-function getDayName(a,b){
-  var date = new Date(2016, (a - 1), b);
-    return date.toString().slice(0, 3).toUpperCase();
+function solution(a, b) {
+    var answer = '';
+    
+    let sum= 0;
+    const monthList = [31,29,31,30,31,30,31,31,30,31,30,31]
+    const days = ["FRI","SAT","SUN","MON","TUE","WED","THU",];
+    let totalDay = 0;
+    
+    
+    for(i=0; i<a-1; i++){
+        totalDay += monthList[i] 
+    }
+    let weekDay = ""
+    totalDay += b - 1;
+    weekDay = days[totalDay%7];
+
+    return weekDay;
+}
 }
