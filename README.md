@@ -1,5 +1,5 @@
 # 프로그래머스 모든 문제 풀이
-[![방문자수](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/codeisneverodd/programmers-coding-test&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=방문자수(Today/Total)&edge_flat=true)](https://github.com/codeisneverodd)
+[![방문자수](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/RyanDeclan/programmers-coding-test&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=방문자수(Today/Total)&edge_flat=true)](https://github.com/codeisneverodd)
 
 ### [🔍 검색 사이트](https://programmers-solution-bank.netlify.app/)가 출시되었습니다!
 
