@@ -43,22 +43,19 @@ function solution(n) {
 
 //정답 4- RyanDeclan
 
+let result = "";
 function solution(n) {
-    let result = "";
-    function divide(num){
-        let remainder = num % 3;
-        let quotient = Math.floor(num / 3)
-        if(!remainder){
-           quotient = Math.floor(num / 3) - 1;
-           remainder  = 3
-        }
-        result += remainder;
-        if( quotient  <= 3){
-            if(quotient)result += quotient
-            result = result.replace(/["3"]/g,"4")
-            return result.split("").reverse().join("")
-        } 
-        return divide(quotient);
+    let remainder = n % 3;
+    let quotient = Math.floor(n / 3)
+    if(!remainder){
+       quotient = Math.floor(n / 3) - 1;
+       remainder  = 3
     }
-    return divide(n);
+    result += remainder;
+    if( quotient  <= 3){
+        if(quotient)result += quotient
+        result = result.replace(/["3"]/g,"4")
+        return result.split("").reverse().join("")
+    } 
+    return solution(quotient);
 }
